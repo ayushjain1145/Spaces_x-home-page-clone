@@ -4,15 +4,18 @@
     }
   header{
 	 height:70px;
-	 border:solid black 1px;
+     background-color:black;
 	 margin:5px 0px 0px 0px;
 	 display:flex;
+	 position:sticky;
+	 top:0;
+	 z-index:1;
   }
   .d1{
-	 height:80px;
+	 height:70px;
      width:16%;
      border:solid black 0px;
-     margin:-5px 0px 0px 20px;
+     margin:0px 0px 0px 20px;
   }
  .im1{
 	 height:100%;
@@ -39,7 +42,7 @@
 	  margin-left:22px;
   }
   .d2vi{
-	  height:100px;
+	  height:160px;
 	  background-color:black;
 	  color:white;
 	  display:none;
@@ -56,7 +59,7 @@
   }
   .d3{
 	  height:30px;
-	  width:18%;
+	  width:19%;
 	  border:solid grey 1px;
 	  border-radius:3px;
 	  margin:18px 0px 0px 40px;
@@ -65,6 +68,40 @@
 	  font-family:arial ,sans-serif;
   }
   .d3p1{
-	  margin:10px 0px 0px 10px;
-	  
+	  margin:10px 0px 0px 10px;  
   }
+  .s1{
+	  margin-left:40px;
+  }
+  .sec1{
+	  height:700px;
+	  width:100%;
+	  background-color:black;
+	  margin:20px 0px 0px 0px;
+	  display:flex;
+	  border:solid white 1px;
+	  position:sticky;
+	  top:0;
+	  color:white;
+  }
+.video{
+	  height:100%;
+	  width:100%;
+	  border:solid white 0px;
+  }
+  .d4{
+	  height:100%;
+	  width:45%;
+	  border:solid white 0px;
+  }
+  .h1{
+	  font-size:62px;
+	  font-family:arial ,sans-serif;
+      margin:25% 0px 0px 7%;  
+  }
+   .d4p1{
+	  font-size:16px;
+      margin:25px 0px 0px 7%;
+	  color:white;
+	  font-family:arial ,sans-serif;
+   }
