@@ -74,14 +74,14 @@
 	  margin-left:40px;
   }
   .sec1{
-	  height:700px;
+	  height:750px;
 	  width:100%;
 	  background-color:black;
 	  margin:20px 0px 0px 0px;
 	  display:flex;
 	  border:solid white 1px;
-	  position:sticky;
-	  top:0;
+	  /* position:sticky; */
+	  /* top:0%; */
 	  color:white;
   }
 .video{
@@ -105,3 +105,60 @@
 	  color:white;
 	  font-family:arial ,sans-serif;
    }
+   .b1{
+	   height:40px;
+	   width:120px;
+	   text-align:center;
+	   font-size:14px;
+	   font-family:arial ,sans-serif;
+	   background-color:black;
+	   color:white;
+	   border:solid grey 1px;
+	   border-radius:5px;
+	   margin:30px 0px 0px 40px; 
+   }
+   .b1:hover{
+	   background-color:white;
+	   color:black;
+   }
+   .bac{
+	   background-image:url('https://sxcontent9668.azureedge.us/cms-assets/assets/Revolutionizing_Space_Tech_Desktop_ec67ad03c2.jpg');
+	   background-size:100% 100%;
+   }
+   .d5{
+	 height:350px;
+     width:38%;	 
+	 border:solid black 0px;
+	 position:relative;
+	 top:15%;
+	 left:58%;
+	 color:grey;
+	 font-size:23px;
+	 font-family:arial ,sans-serif;
+   }
+   .d5p1{
+	  font-size:18px;
+	 font-family:arial ,sans-serif; 
+	 margin-top:0px;
+   }
+   .b2{
+	 height:50px;
+	   width:140px;
+	   text-align:center;
+	   font-size:14px;
+	   font-family:arial ,sans-serif;
+	   background-color:black;
+	   color:white;
+	   border:solid grey 1px;
+	   border-radius:5px;
+	   margin:20px 0px 0px 0px;  
+   }
+   .b2:hover{
+	   background-color:white;
+	   color:black;
+   }
+   .video1{
+	   height:100%;
+	  border:solid white 0px; 
+   }
+ 
