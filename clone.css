@@ -77,9 +77,9 @@
 	  height:750px;
 	  width:100%;
 	  background-color:black;
-	  margin:20px 0px 0px 0px;
+	  margin:0px 0px 0px 0px;
 	  display:flex;
-	  border:solid white 1px;
+	  border:solid white 0px;
 	  /* position:sticky; */
 	  /* top:0%; */
 	  color:white;
@@ -95,7 +95,7 @@
 	  border:solid white 0px;
   }
   .h1{
-	  font-size:62px;
+	  font-size:55px;
 	  font-family:arial ,sans-serif;
       margin:25% 0px 0px 7%;  
   }
@@ -158,7 +158,49 @@
 	   color:black;
    }
    .video1{
-	   height:100%;
+	   height:40%;
+	   width:100%;
 	  border:solid white 0px; 
    }
- 
+   .d7{
+	   height:500px;
+	   width:600px;
+	   background-color:;
+	   position:absolute;
+	   top:280%;
+	   left:5%;
+	   color:white;
+   }
+   .d7p1{
+	  font-size:16px; 
+	   margin:20px 0px 0px 40px;
+   }
+ .b3{
+	 height:50px;
+	   width:195px;
+	   text-align:center;
+	   font-size:14px;
+	   font-family:arial ,sans-serif;
+	   background-color:black;
+	   color:white;
+	   border:solid grey 1px;
+	   border-radius:5px;
+	   margin:20px 0px 0px 40px;  
+   }
+   .b3:hover{
+	   background-color:white;
+	   color:black;
+   }
+	.bac1{
+		   background-image:url('https://sxcontent9668.azureedge.us/cms-assets/assets/Advancing_Human_Spaceflight_Desktop_61c8ba1c67.jpg');
+		   background-size:100% 100%;
+   }
+   .d8{
+	   height:500px;
+	   width:600px;
+	   background-color:;
+	   position:absolute;
+	   top:600%;
+	   left:5%;
+	   color:white;
+   }
