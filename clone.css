@@ -14,7 +14,6 @@
   .d1{
 	 height:70px;
      width:16%;
-     border:solid black 0px;
      margin:0px 0px 0px 20px;
   }
  .im1{
@@ -51,7 +50,7 @@
   .d2:hover .d2vi{
 	  display:block;
   }
-  a{
+  .a{
 	 text-decoration:none;
 	  color:lightgrey;
 	  margin:15px 0px 0px 0px;
@@ -74,25 +73,22 @@
 	  margin-left:40px;
   }
   .sec1{
-	  height:750px;
+	  height:800px;
 	  width:100%;
 	  background-color:black;
 	  margin:0px 0px 0px 0px;
 	  display:flex;
-	  border:solid white 0px;
-	  /* position:sticky; */
-	  /* top:0%; */
+	  position:sticky;
+	  top:0%;
 	  color:white;
   }
 .video{
 	  height:100%;
 	  width:100%;
-	  border:solid white 0px;
   }
   .d4{
 	  height:100%;
 	  width:45%;
-	  border:solid white 0px;
   }
   .h1{
 	  font-size:55px;
@@ -128,11 +124,10 @@
    .d5{
 	 height:350px;
      width:38%;	 
-	 border:solid black 0px;
 	 position:relative;
 	 top:15%;
 	 left:58%;
-	 color:grey;
+	 color:white;
 	 font-size:23px;
 	 font-family:arial ,sans-serif;
    }
@@ -158,16 +153,15 @@
 	   color:black;
    }
    .video1{
-	   height:40%;
+	   height:100%;
 	   width:100%;
-	  border:solid white 0px; 
    }
    .d7{
 	   height:500px;
 	   width:600px;
 	   background-color:;
 	   position:absolute;
-	   top:280%;
+	   top:0%;
 	   left:5%;
 	   color:white;
    }
@@ -200,7 +194,64 @@
 	   width:600px;
 	   background-color:;
 	   position:absolute;
-	   top:600%;
+	   top:0%;
 	   left:5%;
 	   color:white;
+   }
+   .bac2{
+		   background-image:url('https://sxcontent9668.azureedge.us/cms-assets/assets/home_hero_ba20d17dfc.webp');
+		   background-size:100% 100%;
+   }
+   footer{
+	   height:90px;
+	   width:100%;
+	   border:solid yellow 0px;
+	   display:flex;
+	   	  position:sticky;
+	  top:0%;
+   }
+   .d9{
+	   height:50px;
+	   width:50px;
+	   border-radius:100px;
+	   background-color:#272727;
+	   margin:20px 0px 0px 60px;
+	   font-size:20px;
+	   text-align:center;
+	   color:white;
+   }
+   .aaa{
+	  text-decoration:none;
+	  color:lightgrey;
+	  margin:15px 0px 0px 0px;
+	  display:inline-block;
+	  margin:38px 0px 0px 24%;
+	   font-size:14px;
+	   font-family:arial ,sans-serif;
+   }
+   .aa{
+	  text-decoration:none;
+	  color:lightgrey;
+	  margin:15px 0px 0px 0px;
+	  display:inline-block;
+       margin:38px 0px 0px 1.9%;
+	   font-size:14px;
+	   font-family:arial ,sans-serif; 
+   }
+   .fop{
+	   color:white;
+	   margin:40px 0px 0px 20%;
+	   font-size:16px;
+   }
+   .se{
+	  position:sticky;
+	  top:0%;
+   }
+   .dim{
+	   height:700px;
+	   width:100%;
+	   width:100%;
+	   border:solid green 0px;
+	   background-color:black;
+	   position:relative;
    }
