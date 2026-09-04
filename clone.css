@@ -16,141 +16,153 @@
      width:16%;
      margin:0px 0px 0px 20px;
   }
- .im1{
-	 height:100%;
-	 width:100%;
-  }  
- .d2{
-	 font-size:14px;
-	 margin:16px 0px 0px 10px;
-	 color:lightgrey;
-	 font-family:arial ,sans-serif;	
-	 font-weight:bold;
-  }
- .ic1{
-	 float:right;
-	 font-size:18px;
-	 color:white;
-	 display:none;
- }
- .d2:hover .ic1{
-	 display:block;
-	 margin-left:0px;
- } 
-  .mar{
-	  margin-left:22px;
-  }
-  .d2vi{
-	  height:160px;
-	  background-color:black;
-	  color:white;
-	  display:none;
-	  margin:0px 0px 0px 0px;
-  }
-  .d2:hover .d2vi{
-	  display:block;
-  }
-  .a{
-	 text-decoration:none;
-	  color:lightgrey;
-	  margin:15px 0px 0px 0px;
-	  display:inline-block;
-  }
-  .d3{
-	  height:30px;
-	  width:19%;
-	  border:solid grey 1px;
-	  border-radius:3px;
-	  margin:18px 0px 0px 40px;
-	  color:lightgrey;
-	  font-size:12px;
-	  font-family:arial ,sans-serif;
-  }
-  .d3p1{
-	  margin:10px 0px 0px 10px;  
-  }
-  .s1{
-	  margin-left:40px;
-  }
-  .sec1{
-	  height:800px;
-	  width:100%;
-	  background-color:black;
-	  margin:0px 0px 0px 0px;
-	  display:flex;
+	 .im1{
+		 height:100%;
+		 width:100%;
+	  }  
+	 .d2{
+		 font-size:14px;
+		 margin:16px 0px 0px 10px;
+		 color:lightgrey;
+		 font-family:arial ,sans-serif;	
+		 font-weight:bold;
+	  }
+	 .d2 i{
+		 float:right;
+		 font-size:18px;
+		 color:white;
+		 display:none;
+	 }
+	 .d2:hover i{
+		 display:block;
+		 margin-left:0px;
+	 } 
+	  .mar{
+		  margin-left:22px;
+	  }
+	  .d2 div{
+		  height:160px;
+		  background-color:black;
+		  color:white;
+		  display:none;
+		  margin:0px 0px 0px 0px;
+	  }
+	  .d2:hover div{
+		  display:block;
+	  }
+	  .d2 > a{
+		 text-decoration:none;
+		  color:lightgrey;
+		  margin:15px 0px 0px 0px;
+		  display:inline-block;
+	  }
+	  .d3{
+		  height:30px;
+		  width:19%;
+		  border:solid grey 1px;
+		  border-radius:3px;
+		  margin:18px 0px 0px 40px;
+		  color:lightgrey;
+		  font-size:12px;
+		  font-family:arial ,sans-serif;
+	  }
+	  .d3  p{
+		  margin:10px 0px 0px 10px;  
+	  }
+	  .d3  span{
+		  margin-left:40px;
+	  }
+	  .sec1{
+		  height:800px;
+		  width:100%;
+		  background-color:black;
+		  margin:0px 0px 0px 0px;
+		  display:flex;
+		  position:sticky;
+		  top:0%;
+		  color:white;
+	  }
+	.sec1  video{
+		  height:100%;
+		  width:100%;
+	  }
+	 .sec1 + div{
+		  height:100%;
+		  width:45%;
+	  }
+	  h1{
+		  font-size:55px;
+		  font-family:arial ,sans-serif;
+		  margin:25% 0px 0px 7%;  
+	  }
+	  .sec1 p{
+		  font-size:16px;
+		  margin:25px 0px 0px 7%;
+		  color:white;
+		  font-family:arial ,sans-serif;
+	   }
+	   .sec1 button{
+		   height:40px;
+		   width:120px;
+		   text-align:center;
+		   font-size:14px;
+		   font-family:arial ,sans-serif;
+		   background-color:black;
+		   color:white;
+		   border:solid grey 1px;
+		   border-radius:5px;
+		   margin:30px 0px 0px 40px; 
+	   }
+	   button:hover{
+		   background-color:white;
+		   color:black;
+	   }
+	   .bac{
+		   background-image:url('https://sxcontent9668.azureedge.us/cms-assets/assets/Revolutionizing_Space_Tech_Desktop_ec67ad03c2.jpg');
+		   background-size:100% 100%;
+	   }
+	   .d5{
+		 height:350px;
+		 width:38%;	 
+		 position:relative;
+		 top:15%;
+		 left:58%;
+		 color:white;
+		 font-size:23px;
+		 font-family:arial ,sans-serif;
+	   }
+	   .d5 p{
+		  font-size:18px;
+		 font-family:arial ,sans-serif; 
+		 margin-top:0px;
+	   }
+	   .d5 button{
+		 height:50px;
+		   width:140px;
+		   text-align:center;
+		   font-size:14px;
+		   font-family:arial ,sans-serif;
+		   background-color:black;
+		   color:white;
+		   border:solid grey 1px;
+		   border-radius:5px;
+		   margin:20px 0px 0px 40px;  
+	   }
+       button:hover{
+	   background-color:white;
+	   color:black;
+   } 
+   .se{
 	  position:sticky;
 	  top:0%;
-	  color:white;
-  }
-.video{
-	  height:100%;
-	  width:100%;
-  }
-  .d4{
-	  height:100%;
-	  width:45%;
-  }
-  .h1{
-	  font-size:55px;
-	  font-family:arial ,sans-serif;
-      margin:25% 0px 0px 7%;  
-  }
-   .d4p1{
-	  font-size:16px;
-      margin:25px 0px 0px 7%;
-	  color:white;
-	  font-family:arial ,sans-serif;
    }
-   .b1{
-	   height:40px;
-	   width:120px;
-	   text-align:center;
-	   font-size:14px;
-	   font-family:arial ,sans-serif;
+   .se + div{
+	   height:700px;
+	   width:100%;
+	   width:100%;
+	   border:solid green 0px;
 	   background-color:black;
-	   color:white;
-	   border:solid grey 1px;
-	   border-radius:5px;
-	   margin:30px 0px 0px 40px; 
-   }
-   .b1:hover{
-	   background-color:white;
-	   color:black;
-   }
-   .bac{
-	   background-image:url('https://sxcontent9668.azureedge.us/cms-assets/assets/Revolutionizing_Space_Tech_Desktop_ec67ad03c2.jpg');
-	   background-size:100% 100%;
-   }
-   .d5{
-	 height:350px;
-     width:38%;	 
-	 position:relative;
-	 top:15%;
-	 left:58%;
-	 color:white;
-	 font-size:23px;
-	 font-family:arial ,sans-serif;
-   }
-   .d5p1{
-	  font-size:18px;
-	 font-family:arial ,sans-serif; 
-	 margin-top:0px;
-   }
-   .b2{
-	 height:50px;
-	   width:140px;
-	   text-align:center;
-	   font-size:14px;
-	   font-family:arial ,sans-serif;
-	   background-color:black;
-	   color:white;
-	   border:solid grey 1px;
-	   border-radius:5px;
-	   margin:20px 0px 0px 0px;  
-   }
-   .b2:hover{
-	   background-color:white;
-	   color:black;
+	   position:relative;
    }
    .video1{
 	   height:100%;
@@ -169,7 +181,7 @@
 	  font-size:16px; 
 	   margin:20px 0px 0px 40px;
    }
- .b3{
+ .se button{
 	 height:50px;
 	   width:195px;
 	   text-align:center;
@@ -181,7 +193,7 @@
 	   border-radius:5px;
 	   margin:20px 0px 0px 40px;  
    }
-   .b3:hover{
+   button:hover{
 	   background-color:white;
 	   color:black;
    }
@@ -220,6 +232,12 @@
 	   text-align:center;
 	   color:white;
    }
+   .d9 > a{
+		 text-decoration:none;
+		  color:lightgrey;
+		  margin:15px 0px 0px 0px;
+		  display:inline-block;
+	  }
    .aaa{
 	  text-decoration:none;
 	  color:lightgrey;
@@ -243,15 +261,5 @@
 	   margin:40px 0px 0px 20%;
 	   font-size:16px;
    }
-   .se{
-	  position:sticky;
-	  top:0%;
-   }
-   .dim{
-	   height:700px;
-	   width:100%;
-	   width:100%;
-	   border:solid green 0px;
-	   background-color:black;
-	   position:relative;
-   }
+ 
+   
